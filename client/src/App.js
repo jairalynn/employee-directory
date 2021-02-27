@@ -1,18 +1,12 @@
 import React from 'react';
-import './App.css';
-import Container from "./components/Container"
-import Header from "./components/Header"
+import EmployeeContainer from "./components/EmployeeContainer";
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <Container>
+      <EmployeeContainer>
 
 
-      </Container>
-      
-    </div>
+      </EmployeeContainer>
   );
 }
 
